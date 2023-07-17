@@ -1,0 +1,1409 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Сборка начата 17.07.2023 13:13:34.
+      
+      Проект "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.09
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/git_ex/HomeWorkSQL/build/CMakeFiles/3.26.0-rc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Сборка начата 17.07.2023 13:13:36.
+      
+      Проект "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.71
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/git_ex/HomeWorkSQL/build/CMakeFiles/3.26.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-grte62"
+      binary: "D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-grte62"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-grte62
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_192db.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:37.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-grte62\\cmTC_192db.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_192db.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-grte62\\Debug\\".
+          Создание каталога "cmTC_192db.dir\\Debug\\cmTC_192db.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_192db.dir\\Debug\\cmTC_192db.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_192db.dir\\Debug\\\\" /Fd"cmTC_192db.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          CMakeCCompilerABI.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_192db.dir\\Debug\\\\" /Fd"cmTC_192db.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-grte62\\Debug\\cmTC_192db.exe" /INCREMENTAL /ILK:"cmTC_192db.dir\\Debug\\cmTC_192db.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-grte62/Debug/cmTC_192db.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-grte62/Debug/cmTC_192db.lib" /MACHINE:X64  /machine:x64 cmTC_192db.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_192db.vcxproj -> D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-grte62\\Debug\\cmTC_192db.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_192db.dir\\Debug\\cmTC_192db.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_192db.dir\\Debug\\cmTC_192db.tlog\\cmTC_192db.lastbuildstate".
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-grte62\\cmTC_192db.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-r70mfi"
+      binary: "D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-r70mfi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-r70mfi
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_65821.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:38.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r70mfi\\cmTC_65821.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_65821.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r70mfi\\Debug\\".
+          Создание каталога "cmTC_65821.dir\\Debug\\cmTC_65821.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_65821.dir\\Debug\\cmTC_65821.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65821.dir\\Debug\\\\" /Fd"cmTC_65821.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          CMakeCXXCompilerABI.cpp
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65821.dir\\Debug\\\\" /Fd"cmTC_65821.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r70mfi\\Debug\\cmTC_65821.exe" /INCREMENTAL /ILK:"cmTC_65821.dir\\Debug\\cmTC_65821.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-r70mfi/Debug/cmTC_65821.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-r70mfi/Debug/cmTC_65821.lib" /MACHINE:X64  /machine:x64 cmTC_65821.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_65821.vcxproj -> D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r70mfi\\Debug\\cmTC_65821.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_65821.dir\\Debug\\cmTC_65821.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_65821.dir\\Debug\\cmTC_65821.tlog\\cmTC_65821.lastbuildstate".
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r70mfi\\cmTC_65821.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:33 (check_function_exists)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for poll"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-iktn0t"
+      binary: "D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-iktn0t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-iktn0t
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3b9ae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:39.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\cmTC_3b9ae.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_3b9ae.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\Debug\\".
+          Создание каталога "cmTC_3b9ae.dir\\Debug\\cmTC_3b9ae.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_3b9ae.dir\\Debug\\cmTC_3b9ae.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b9ae.dir\\Debug\\\\" /Fd"cmTC_3b9ae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          CheckFunctionExists.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b9ae.dir\\Debug\\\\" /Fd"cmTC_3b9ae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\Debug\\cmTC_3b9ae.exe" /INCREMENTAL /ILK:"cmTC_3b9ae.dir\\Debug\\cmTC_3b9ae.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-iktn0t/Debug/cmTC_3b9ae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-iktn0t/Debug/cmTC_3b9ae.lib" /MACHINE:X64  /machine:x64 cmTC_3b9ae.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: ссылка на неразрешенный внешний символ poll в функции main. [D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\cmTC_3b9ae.vcxproj]
+        D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\Debug\\cmTC_3b9ae.exe : fatal error LNK1120: неразрешенных внешних элементов: 1 [D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\cmTC_3b9ae.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\cmTC_3b9ae.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\cmTC_3b9ae.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          CheckFunctionExists.obj : error LNK2019: ссылка на неразрешенный внешний символ poll в функции main. [D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\cmTC_3b9ae.vcxproj]
+          D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\Debug\\cmTC_3b9ae.exe : fatal error LNK1120: неразрешенных внешних элементов: 1 [D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iktn0t\\cmTC_3b9ae.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 2
+        
+        Прошло времени 00:00:00.44
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:36 (check_symbol_exists)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for PQencryptPasswordConn"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-4ozmec"
+      binary: "D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-4ozmec"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_PQENCRYPTPASSWORDCONN"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-4ozmec
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_21f63.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:40.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmec\\cmTC_21f63.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_21f63.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmec\\Debug\\".
+          Создание каталога "cmTC_21f63.dir\\Debug\\cmTC_21f63.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_21f63.dir\\Debug\\cmTC_21f63.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21f63.dir\\Debug\\\\" /Fd"cmTC_21f63.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmec\\CheckSymbolExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          CheckSymbolExists.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21f63.dir\\Debug\\\\" /Fd"cmTC_21f63.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmec\\CheckSymbolExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmec\\Debug\\cmTC_21f63.exe" /INCREMENTAL /ILK:"cmTC_21f63.dir\\Debug\\cmTC_21f63.ilk" /NOLOGO pq.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-4ozmec/Debug/cmTC_21f63.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-4ozmec/Debug/cmTC_21f63.lib" /MACHINE:X64  /machine:x64 cmTC_21f63.dir\\Debug\\CheckSymbolExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pq.lib" [D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmec\\cmTC_21f63.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmec\\cmTC_21f63.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmec\\cmTC_21f63.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pq.lib" [D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4ozmec\\cmTC_21f63.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:40 (check_symbol_exists)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for PQenterPipelineMode"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-4neht3"
+      binary: "D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-4neht3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_PQ_PIPELINE"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/CMakeFiles/CMakeScratch/TryCompile-4neht3
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c70e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:41.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4neht3\\cmTC_c70e4.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_c70e4.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4neht3\\Debug\\".
+          Создание каталога "cmTC_c70e4.dir\\Debug\\cmTC_c70e4.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_c70e4.dir\\Debug\\cmTC_c70e4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c70e4.dir\\Debug\\\\" /Fd"cmTC_c70e4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4neht3\\CheckSymbolExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          CheckSymbolExists.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c70e4.dir\\Debug\\\\" /Fd"cmTC_c70e4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4neht3\\CheckSymbolExists.c"
+        D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4neht3\\CheckSymbolExists.c(8,38): error C2065: PQenterPipelineMode: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4neht3\\cmTC_c70e4.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4neht3\\cmTC_c70e4.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4neht3\\cmTC_c70e4.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4neht3\\CheckSymbolExists.c(8,38): error C2065: PQenterPipelineMode: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4neht3\\cmTC_c70e4.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:57 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_PURE"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3db1c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:41.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_3db1c.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_3db1c.dir\\Debug\\cmTC_3db1c.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_3db1c.dir\\Debug\\cmTC_3db1c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_3db1c.dir\\Debug\\\\" /Fd"cmTC_3db1c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          gcc_pure.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_3db1c.dir\\Debug\\\\" /Fd"cmTC_3db1c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx"
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx(2,20): error C2065: pure: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx(2,27): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "f" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx(2,29): error C2059: синтаксическая ошибка: ) [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx(3,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx(3,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа) [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx(9,10): error C3861: f: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx(2,20): error C2065: pure: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx(2,27): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "f" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx(2,29): error C2059: синтаксическая ошибка: ) [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx(3,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx(3,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа) [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_pure.cxx(9,10): error C3861: f: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_3db1c.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 6
+        
+        Прошло времени 00:00:00.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:61 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d6a47.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:42.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_d6a47.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_d6a47.dir\\Debug\\cmTC_d6a47.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_d6a47.dir\\Debug\\cmTC_d6a47.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_d6a47.dir\\Debug\\\\" /Fd"cmTC_d6a47.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          gcc_visibility.cxx
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,33): error C2143: синтаксическая ошибка: отсутствие ")" перед "(" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,23): error C2079: "visibility" использует не имеющую определения структуру struct "__attribute__" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,33): error C2440: инициализация: невозможно преобразовать "const char [7]" в "int" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,33): message : Не существует контекста, в котором такое преобразование возможно [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,43): error C2059: синтаксическая ошибка: ) [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,44): error C2059: синтаксическая ошибка: ) [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,46): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "D" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(3,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа) [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(10,3): error C2065: D: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(10,5): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "d" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_d6a47.dir\\Debug\\\\" /Fd"cmTC_d6a47.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx"
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(10,5): error C2065: d: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(11,10): error C2065: d: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,33): error C2143: синтаксическая ошибка: отсутствие ")" перед "(" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,23): error C2079: "visibility" использует не имеющую определения структуру struct "__attribute__" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,33): error C2440: инициализация: невозможно преобразовать "const char [7]" в "int" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,43): error C2059: синтаксическая ошибка: ) [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,44): error C2059: синтаксическая ошибка: ) [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(2,46): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "D" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(3,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа) [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(10,3): error C2065: D: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(10,5): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "d" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(10,5): error C2065: d: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\gcc_visibility.cxx(11,10): error C2065: d: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_d6a47.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 11
+        
+        Прошло времени 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:65 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_LIKELY"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0347d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:42.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_0347d.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_0347d.dir\\Debug\\cmTC_0347d.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_0347d.dir\\Debug\\cmTC_0347d.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_0347d.dir\\Debug\\\\" /Fd"cmTC_0347d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\likely.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          likely.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_0347d.dir\\Debug\\\\" /Fd"cmTC_0347d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\likely.cxx"
+        C:\\libpqxx-7.7.5\\config-tests\\likely.cxx(6,21): error C2065: because: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\likely.cxx(6,30): error C2065: older: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\likely.cxx(6,37): error C2065: C: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\likely.cxx(6,42): error C2065: standard: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\likely.cxx(6,3): error C3861: deliberately_fail: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\likely.cxx(10,19): warning C5051: для атрибута "likely" требуется по меньшей мере "/std:c++20"; игнорируется [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\likely.cxx(10,19): warning C5051: для атрибута "likely" требуется по меньшей мере "/std:c++20"; игнорируется [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj]
+        
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\likely.cxx(6,21): error C2065: because: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\likely.cxx(6,30): error C2065: older: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\likely.cxx(6,37): error C2065: C: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\likely.cxx(6,42): error C2065: standard: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\likely.cxx(6,3): error C3861: deliberately_fail: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0347d.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 5
+        
+        Прошло времени 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:69 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CXA_DEMANGLE"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7bf5e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:43.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_7bf5e.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_7bf5e.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_7bf5e.dir\\Debug\\cmTC_7bf5e.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_7bf5e.dir\\Debug\\cmTC_7bf5e.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_7bf5e.dir\\Debug\\\\" /Fd"cmTC_7bf5e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\cxa_demangle.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cxa_demangle.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_7bf5e.dir\\Debug\\\\" /Fd"cmTC_7bf5e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\cxa_demangle.cxx"
+        C:\\libpqxx-7.7.5\\config-tests\\cxa_demangle.cxx(7,10): fatal  error C1083: Не удается открыть файл включение: cxxabi.h: No such file or directory, [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_7bf5e.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_7bf5e.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_7bf5e.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\cxa_demangle.cxx(7,10): fatal  error C1083: Не удается открыть файл включение: cxxabi.h: No such file or directory, [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_7bf5e.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.71
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:73 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b4273.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:44.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_b4273.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_b4273.dir\\Debug\\cmTC_b4273.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_b4273.dir\\Debug\\cmTC_b4273.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_b4273.dir\\Debug\\\\" /Fd"cmTC_b4273.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          concepts.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_b4273.dir\\Debug\\\\" /Fd"cmTC_b4273.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx"
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\include\\ranges(12): warning STL4038: The contents of <ranges> are available only with C++20 or later. [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(8,9): error C2061: синтаксическая ошибка: идентификатор "Foo" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(8,20): error C3083: ranges: символ слева от "::" должен представлять тип [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(8,28): error C2039: "input_range": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\include\\vector(26,1): message : см. объявление "std" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(11,10): error C2061: синтаксическая ошибка: идентификатор "Foo" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(11,26): error C2065: F: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(11,28): error C2988: неопознанное объявление или определение шаблона [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(11,28): error C2059: синтаксическая ошибка: const [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(12,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(12,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа) [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(20,16): error C3861: foo: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\include\\ranges(12): warning STL4038: The contents of <ranges> are available only with C++20 or later. [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(8,9): error C2061: синтаксическая ошибка: идентификатор "Foo" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(8,20): error C3083: ranges: символ слева от "::" должен представлять тип [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(8,28): error C2039: "input_range": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(11,10): error C2061: синтаксическая ошибка: идентификатор "Foo" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(11,26): error C2065: F: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(11,28): error C2988: неопознанное объявление или определение шаблона [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(11,28): error C2059: синтаксическая ошибка: const [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(12,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(12,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа) [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\concepts.cxx(20,16): error C3861: foo: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_b4273.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 10
+        
+        Прошло времени 00:00:00.67
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:77 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SPAN"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_80830.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:44.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_80830.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_80830.dir\\Debug\\cmTC_80830.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_80830.dir\\Debug\\cmTC_80830.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_80830.dir\\Debug\\\\" /Fd"cmTC_80830.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\span.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          span.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_80830.dir\\Debug\\\\" /Fd"cmTC_80830.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\span.cxx"
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\include\\span(13): warning STL4038: The contents of <span> are available only with C++20 or later. [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\span.cxx(6,8): error C2039: "span": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        predefined C++ types (compiler internal)(347,11): message : см. объявление "std" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\span.cxx(6,12): error C2065: span: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\span.cxx(6,13): error C2062: тип "char" не требуется [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\span.cxx(6,25): error C2143: синтаксическая ошибка: отсутствие ";" перед "{" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\span.cxx(6,49): error C2039: "size_t": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        predefined C++ types (compiler internal)(347,11): message : см. объявление "std" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\span.cxx(6,62): error C2143: синтаксическая ошибка: отсутствие ";" перед "}" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\span.cxx(7,32): error C2039: "size": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        predefined C++ types (compiler internal)(347,11): message : см. объявление "std" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\span.cxx(7,37): error C2065: args: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\span.cxx(7,36): error C3861: size: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\include\\span(13): warning STL4038: The contents of <span> are available only with C++20 or later. [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\span.cxx(6,8): error C2039: "span": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\span.cxx(6,12): error C2065: span: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\span.cxx(6,13): error C2062: тип "char" не требуется [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\span.cxx(6,25): error C2143: синтаксическая ошибка: отсутствие ";" перед "{" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\span.cxx(6,49): error C2039: "size_t": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\span.cxx(6,62): error C2143: синтаксическая ошибка: отсутствие ";" перед "}" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\span.cxx(7,32): error C2039: "size": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\span.cxx(7,37): error C2065: args: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\span.cxx(7,36): error C3861: size: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_80830.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 9
+        
+        Прошло времени 00:00:00.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:81 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_MULTIDIMENSIONAL_SUBSCRIPT"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a54e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:45.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_a54e5.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a54e5.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_a54e5.dir\\Debug\\cmTC_a54e5.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a54e5.dir\\Debug\\cmTC_a54e5.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_a54e5.dir\\Debug\\\\" /Fd"cmTC_a54e5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\multidim-subscript.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          multidim-subscript.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_a54e5.dir\\Debug\\\\" /Fd"cmTC_a54e5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\multidim-subscript.cxx"
+        C:\\libpqxx-7.7.5\\config-tests\\multidim-subscript.cxx(7,7): error C2804: бинарный "operator [" имеет слишком много параметров [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_a54e5.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\multidim-subscript.cxx(7,38): error C2333: table::operator []: ошибка в объявлении функции; пропуск основного текста функции [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_a54e5.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\multidim-subscript.cxx(13,22): error C2676: бинарный "[": "table" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_a54e5.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_a54e5.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_a54e5.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\multidim-subscript.cxx(7,7): error C2804: бинарный "operator [" имеет слишком много параметров [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_a54e5.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\multidim-subscript.cxx(7,38): error C2333: table::operator []: ошибка в объявлении функции; пропуск основного текста функции [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_a54e5.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\multidim-subscript.cxx(13,22): error C2676: бинарный "[": "table" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_a54e5.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 3
+        
+        Прошло времени 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:85 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_FLOAT"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8f749.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:46.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_8f749.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_8f749.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_8f749.dir\\Debug\\cmTC_8f749.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_8f749.dir\\Debug\\cmTC_8f749.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_8f749.dir\\Debug\\\\" /Fd"cmTC_8f749.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\charconv_float.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          charconv_float.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_8f749.dir\\Debug\\\\" /Fd"cmTC_8f749.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\charconv_float.cxx"
+        C:\\libpqxx-7.7.5\\config-tests\\charconv_float.cxx(15,17): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "and" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_8f749.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_8f749.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_8f749.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\charconv_float.cxx(15,17): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "and" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_8f749.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.44
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:89 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_INT"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5e87f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:46.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_5e87f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_5e87f.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_5e87f.dir\\Debug\\cmTC_5e87f.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_5e87f.dir\\Debug\\cmTC_5e87f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_5e87f.dir\\Debug\\\\" /Fd"cmTC_5e87f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\charconv_int.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          charconv_int.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_5e87f.dir\\Debug\\\\" /Fd"cmTC_5e87f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\charconv_int.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_5e87f.exe" /INCREMENTAL /ILK:"cmTC_5e87f.dir\\Debug\\cmTC_5e87f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp/Debug/cmTC_5e87f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp/Debug/cmTC_5e87f.lib" /MACHINE:X64  /machine:x64 cmTC_5e87f.dir\\Debug\\charconv_int.obj
+          cmTC_5e87f.vcxproj -> D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_5e87f.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_5e87f.dir\\Debug\\cmTC_5e87f.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_5e87f.dir\\Debug\\cmTC_5e87f.tlog\\cmTC_5e87f.lastbuildstate".
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_5e87f.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.79
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:93 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_PATH"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5eb1b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:47.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_5eb1b.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_5eb1b.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_5eb1b.dir\\Debug\\cmTC_5eb1b.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_5eb1b.dir\\Debug\\cmTC_5eb1b.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_5eb1b.dir\\Debug\\\\" /Fd"cmTC_5eb1b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\fs.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          fs.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_5eb1b.dir\\Debug\\\\" /Fd"cmTC_5eb1b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\fs.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_5eb1b.exe" /INCREMENTAL /ILK:"cmTC_5eb1b.dir\\Debug\\cmTC_5eb1b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp/Debug/cmTC_5eb1b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp/Debug/cmTC_5eb1b.lib" /MACHINE:X64  /machine:x64 cmTC_5eb1b.dir\\Debug\\fs.obj
+          cmTC_5eb1b.vcxproj -> D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_5eb1b.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_5eb1b.dir\\Debug\\cmTC_5eb1b.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_5eb1b.dir\\Debug\\cmTC_5eb1b.tlog\\cmTC_5eb1b.lastbuildstate".
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_5eb1b.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:97 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_THREAD_LOCAL"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_25fbc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:49.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_25fbc.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_25fbc.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_25fbc.dir\\Debug\\cmTC_25fbc.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_25fbc.dir\\Debug\\cmTC_25fbc.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_25fbc.dir\\Debug\\\\" /Fd"cmTC_25fbc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\thread_local.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          thread_local.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_25fbc.dir\\Debug\\\\" /Fd"cmTC_25fbc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\thread_local.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_25fbc.exe" /INCREMENTAL /ILK:"cmTC_25fbc.dir\\Debug\\cmTC_25fbc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp/Debug/cmTC_25fbc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp/Debug/cmTC_25fbc.lib" /MACHINE:X64  /machine:x64 cmTC_25fbc.dir\\Debug\\thread_local.obj
+          cmTC_25fbc.vcxproj -> D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_25fbc.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_25fbc.dir\\Debug\\cmTC_25fbc.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_25fbc.dir\\Debug\\cmTC_25fbc.tlog\\cmTC_25fbc.lastbuildstate".
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_25fbc.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.08
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:101 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SLEEP_FOR"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e99d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:50.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_e99d4.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_e99d4.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_e99d4.dir\\Debug\\cmTC_e99d4.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_e99d4.dir\\Debug\\cmTC_e99d4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_e99d4.dir\\Debug\\\\" /Fd"cmTC_e99d4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\sleep_for.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          sleep_for.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_e99d4.dir\\Debug\\\\" /Fd"cmTC_e99d4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\sleep_for.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_e99d4.exe" /INCREMENTAL /ILK:"cmTC_e99d4.dir\\Debug\\cmTC_e99d4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp/Debug/cmTC_e99d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp/Debug/cmTC_e99d4.lib" /MACHINE:X64  /machine:x64 cmTC_e99d4.dir\\Debug\\sleep_for.obj
+          cmTC_e99d4.vcxproj -> D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_e99d4.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_e99d4.dir\\Debug\\cmTC_e99d4.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_e99d4.dir\\Debug\\cmTC_e99d4.tlog\\cmTC_e99d4.lastbuildstate".
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_e99d4.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.92
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:105 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_STRERROR_R"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_36fa6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:51.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_36fa6.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_36fa6.dir\\Debug\\cmTC_36fa6.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_36fa6.dir\\Debug\\cmTC_36fa6.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_36fa6.dir\\Debug\\\\" /Fd"cmTC_36fa6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\strerror_r.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          strerror_r.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_36fa6.dir\\Debug\\\\" /Fd"cmTC_36fa6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\strerror_r.cxx"
+        C:\\libpqxx-7.7.5\\config-tests\\strerror_r.cxx(11,12): error C3861: strerror_r: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\strerror_r.cxx(13,10): error C2065: not: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\strerror_r.cxx(13,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "not" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\strerror_r.cxx(13,14): error C2065: not: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\strerror_r.cxx(13,18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "res" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\strerror_r.cxx(11,12): error C3861: strerror_r: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\strerror_r.cxx(13,10): error C2065: not: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\strerror_r.cxx(13,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "not" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\strerror_r.cxx(13,14): error C2065: not: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\strerror_r.cxx(13,18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "res" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_36fa6.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 5
+        
+        Прошло времени 00:00:00.43
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:109 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_STRERROR_S"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a6d93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:52.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_a6d93.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a6d93.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_a6d93.dir\\Debug\\cmTC_a6d93.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a6d93.dir\\Debug\\cmTC_a6d93.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_a6d93.dir\\Debug\\\\" /Fd"cmTC_a6d93.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\strerror_s.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          strerror_s.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_a6d93.dir\\Debug\\\\" /Fd"cmTC_a6d93.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\strerror_s.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_a6d93.exe" /INCREMENTAL /ILK:"cmTC_a6d93.dir\\Debug\\cmTC_a6d93.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp/Debug/cmTC_a6d93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp/Debug/cmTC_a6d93.lib" /MACHINE:X64  /machine:x64 cmTC_a6d93.dir\\Debug\\strerror_s.obj
+          cmTC_a6d93.vcxproj -> D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_a6d93.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_a6d93.dir\\Debug\\cmTC_a6d93.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_a6d93.dir\\Debug\\cmTC_a6d93.tlog\\cmTC_a6d93.lastbuildstate".
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_a6d93.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:113 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_YEAR_MONTH_DAY"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f549b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:52.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_f549b.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_f549b.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_f549b.dir\\Debug\\cmTC_f549b.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_f549b.dir\\Debug\\cmTC_f549b.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_f549b.dir\\Debug\\\\" /Fd"cmTC_f549b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\year_month_day.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          year_month_day.cxx
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_f549b.dir\\Debug\\\\" /Fd"cmTC_f549b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\year_month_day.cxx"
+        C:\\libpqxx-7.7.5\\config-tests\\year_month_day.cxx(6,27): error C2039: "year": не является членом "std::chrono". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_f549b.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\include\\__msvc_chrono.hpp(785,11): message : см. объявление "std::chrono" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_f549b.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\year_month_day.cxx(6,31): error C2065: year: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_f549b.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_f549b.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_f549b.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\year_month_day.cxx(6,27): error C2039: "year": не является членом "std::chrono". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_f549b.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\year_month_day.cxx(6,31): error C2065: year: необъявленный идентификатор [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_f549b.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 2
+        
+        Прошло времени 00:00:00.61
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:117 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CMP"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0e883.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:53.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_0e883.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_0e883.dir\\Debug\\cmTC_0e883.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_0e883.dir\\Debug\\cmTC_0e883.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_0e883.dir\\Debug\\\\" /Fd"cmTC_0e883.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\cmp.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          cmp.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_0e883.dir\\Debug\\\\" /Fd"cmTC_0e883.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\cmp.cxx"
+        C:\\libpqxx-7.7.5\\config-tests\\cmp.cxx(7,15): error C2039: "cmp_greater": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\include\\utility(29,1): message : см. объявление "std" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\cmp.cxx(7,26): error C3861: cmp_greater: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\cmp.cxx(7,43): error C2039: "cmp_less_equal": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\include\\utility(29,1): message : см. объявление "std" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\cmp.cxx(7,57): error C3861: cmp_less_equal: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\cmp.cxx(7,15): error C2039: "cmp_greater": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\cmp.cxx(7,26): error C3861: cmp_greater: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\cmp.cxx(7,43): error C2039: "cmp_less_equal": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\cmp.cxx(7,57): error C3861: cmp_less_equal: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_0e883.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 4
+        
+        Прошло времени 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:121 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_UNREACHABLE"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1ad4f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:54.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_1ad4f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_1ad4f.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_1ad4f.dir\\Debug\\cmTC_1ad4f.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_1ad4f.dir\\Debug\\cmTC_1ad4f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_1ad4f.dir\\Debug\\\\" /Fd"cmTC_1ad4f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\unreachable.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          unreachable.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_1ad4f.dir\\Debug\\\\" /Fd"cmTC_1ad4f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\unreachable.cxx"
+        C:\\libpqxx-7.7.5\\config-tests\\unreachable.cxx(12,10): error C2039: "unreachable": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_1ad4f.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\include\\utility(29,1): message : см. объявление "std" [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_1ad4f.vcxproj]
+        C:\\libpqxx-7.7.5\\config-tests\\unreachable.cxx(12,21): error C3861: unreachable: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_1ad4f.vcxproj]
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_1ad4f.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_1ad4f.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\libpqxx-7.7.5\\config-tests\\unreachable.cxx(12,10): error C2039: "unreachable": не является членом "std". [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_1ad4f.vcxproj]
+          C:\\libpqxx-7.7.5\\config-tests\\unreachable.cxx(12,21): error C3861: unreachable: идентификатор не найден [D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_1ad4f.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 2
+        
+        Прошло времени 00:00:00.41
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/libpqxx-7.7.5/cmake/config.cmake:126 (try_compile)"
+      - "C:/libpqxx-7.7.5/CMakeLists.txt:27 (include)"
+    directories:
+      source: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+      binary: "D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/libpqxx-7.7.5/cmake"
+    buildResult:
+      variable: "need_fslib"
+      cached: true
+      stdout: |
+        Change Dir: D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1c919.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 17.07.2023 13:13:54.
+        
+        Проект "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_1c919.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_1c919.dir\\Debug\\".
+          Создание каталога "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Создание каталога "cmTC_1c919.dir\\Debug\\cmTC_1c919.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_1c919.dir\\Debug\\cmTC_1c919.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_1c919.dir\\Debug\\\\" /Fd"cmTC_1c919.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\need_fslib.cxx"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32535 для x64
+          need_fslib.cxx
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_1c919.dir\\Debug\\\\" /Fd"cmTC_1c919.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\libpqxx-7.7.5\\config-tests\\need_fslib.cxx"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_1c919.exe" /INCREMENTAL /ILK:"cmTC_1c919.dir\\Debug\\cmTC_1c919.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp/Debug/cmTC_1c919.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/CMakeTmp/Debug/cmTC_1c919.lib" /MACHINE:X64  /machine:x64 cmTC_1c919.dir\\Debug\\need_fslib.obj
+          cmTC_1c919.vcxproj -> D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_1c919.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_1c919.dir\\Debug\\cmTC_1c919.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_1c919.dir\\Debug\\cmTC_1c919.tlog\\cmTC_1c919.lastbuildstate".
+        Сборка проекта "D:\\git_ex\\HomeWorkSQL\\build\\libpqxx-build\\CMakeFiles\\CMakeTmp\\cmTC_1c919.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.22
+        
+      exitCode: 0
+...

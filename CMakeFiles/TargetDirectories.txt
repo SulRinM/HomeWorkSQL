@@ -1,0 +1,16 @@
+D:/git_ex/HomeWorkSQL/build/CMakeFiles/HomeWorkSQL.dir
+D:/git_ex/HomeWorkSQL/build/CMakeFiles/PACKAGE.dir
+D:/git_ex/HomeWorkSQL/build/CMakeFiles/INSTALL.dir
+D:/git_ex/HomeWorkSQL/build/CMakeFiles/ALL_BUILD.dir
+D:/git_ex/HomeWorkSQL/build/CMakeFiles/ZERO_CHECK.dir
+D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/PACKAGE.dir
+D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/INSTALL.dir
+D:/git_ex/HomeWorkSQL/build/libpqxx-build/CMakeFiles/ALL_BUILD.dir
+D:/git_ex/HomeWorkSQL/build/libpqxx-build/src/CMakeFiles/pqxx.dir
+D:/git_ex/HomeWorkSQL/build/libpqxx-build/src/CMakeFiles/PACKAGE.dir
+D:/git_ex/HomeWorkSQL/build/libpqxx-build/src/CMakeFiles/INSTALL.dir
+D:/git_ex/HomeWorkSQL/build/libpqxx-build/include/CMakeFiles/PACKAGE.dir
+D:/git_ex/HomeWorkSQL/build/libpqxx-build/include/CMakeFiles/INSTALL.dir
+D:/git_ex/HomeWorkSQL/build/libpqxx-build/test/CMakeFiles/runner.dir
+D:/git_ex/HomeWorkSQL/build/libpqxx-build/test/CMakeFiles/PACKAGE.dir
+D:/git_ex/HomeWorkSQL/build/libpqxx-build/test/CMakeFiles/INSTALL.dir
